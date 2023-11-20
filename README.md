@@ -14,7 +14,7 @@
 
 - 更改 .firebaserc default 為你的 fireabse 專案 id
 - 更改 firebase.json ，如有多個網站請加入 "site":"demo1234-4e408" (預設不寫site為空字串)
-- npm install -g firebase-tools
+- npm install -g firebase-tools (沒安裝需先安裝)
 - firebase logout (先將本機有的 fireabse 登出)
 - firebase login (登入新的 firebase 帳戶)
 - npm run deploy 
