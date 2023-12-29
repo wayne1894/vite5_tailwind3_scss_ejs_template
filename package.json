@@ -7,17 +7,5 @@
     "build": "rimraf dist && vite build",
     "preview": "vite preview",
     "deploy": "rimraf dist && vite build && firebase deploy --only hosting"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "rimraf": "^5.0.5",
-    "sass": "^1.69.5",
-    "tailwindcss": "^3.3.5",
-    "vite": "^5.0.0"
-  },
-  "dependencies": {
-    "glob": "^10.3.10",
-    "vite-plugin-ejs": "^1.7.0"
   }
 }

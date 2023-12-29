@@ -10,10 +10,15 @@
 </head>
 
 <body>
-  <h1 class="text-3xl font-bold underline text">
-    Hello world!
-  </h1>
-  <a href="ejs.html">fff</a>
+  <%- include("include/partial")%>
+    <h1 class="text-3xl font-bold underline text">
+      Hello world2!
+    </h1>
+
+    <%for(var i=0;i<3;i++){%>
+      <%- include("include/partial")%>
+    <%}%>
+
 </body>
 
 </html>
